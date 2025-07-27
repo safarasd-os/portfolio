@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-const ProjectCard = ({ project, description }) => {
+const ProjectCard = ({ project }) => {
   return (
     <Link id="project-link" to={project}>
       <div id="project">

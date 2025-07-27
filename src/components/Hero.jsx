@@ -6,7 +6,7 @@ const Hero = () => {
     <Wrapper>
       <section id="welcome-section">
         <h1 id="title">Hello I am Tilen</h1>
-        <h2 id="sub-title">a web developer</h2>
+        <h2 id="sub-title">a developer</h2>
       </section>
     </Wrapper>
   );

@@ -1,9 +1,4 @@
-import {
-  Dashboard,
-  Refractometer,
-  HomeLayout,
-  InventoryTracker,
-} from "./pages";
+import { Dashboard, HomeLayout, MovieFlix } from "./pages";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 const router = createBrowserRouter([
@@ -16,12 +11,8 @@ const router = createBrowserRouter([
         element: <Dashboard />,
       },
       {
-        path: "refractometer",
-        element: <Refractometer />,
-      },
-      {
-        path: "inventroy-tracker",
-        element: <InventoryTracker />,
+        path: "MovieFlix",
+        element: <MovieFlix />,
       },
     ],
   },

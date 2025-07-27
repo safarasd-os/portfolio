@@ -23,11 +23,7 @@ const Footer = () => {
             <MdEmail />
           </a>
         </div>
-        <div id="footer">
-          <h4 id="footer-text">
-            **This is just a fake portfolio. contact details given are not real.
-          </h4>
-        </div>
+        <div id="footer"></div>
       </section>
     </Wrapper>
   );
