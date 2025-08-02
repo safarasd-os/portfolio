@@ -5,7 +5,7 @@ import Subtitle from "../assets/wrappers/Subtitle";
 import Text from "../assets/wrappers/Text";
 import { useNavigate } from "react-router-dom";
 
-const Refractometer = () => {
+const MovieFlix = () => {
   const navigate = useNavigate();
   return (
     <PageContainer>
@@ -61,6 +61,17 @@ const Refractometer = () => {
             <strong>Dev Tools:</strong> Docker (for Appwrite), Git
           </li>
         </ul>
+        <p>
+          (To look at the code you can look at my{" "}
+          <a
+            href="https://github.com/safarasd-os?tab=repositories"
+            target="blank_"
+            rel="noopener noreferrer"
+          >
+            github
+          </a>{" "}
+          repository)
+        </p>
       </Section>
 
       <Section>
@@ -81,4 +92,4 @@ const Refractometer = () => {
   );
 };
 
-export default Refractometer;
+export default MovieFlix;

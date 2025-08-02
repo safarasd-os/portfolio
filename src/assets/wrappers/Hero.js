@@ -14,6 +14,10 @@ const Wrapper = styled.nav`
     color: var(--fourth-color);
   }
   #sub-title {
+    margin: 5px;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
     font-style: italic;
     font-weight: 100;
     color: var(--second-color);
